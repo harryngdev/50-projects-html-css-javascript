@@ -1,0 +1,18 @@
+@mixin flex($align: flex-start, $justify: flex-start, $wrap: nowrap) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-wrap: $wrap;
+}
+
+@mixin responsive_max($device-width) {
+  @media screen and (max-width: $device-width) {
+    @content;
+  }
+}
+
+@mixin responsive_min($device-width) {
+  @media screen and (min-width: $device-width) {
+    @content;
+  }
+}

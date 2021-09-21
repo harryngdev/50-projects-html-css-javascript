@@ -1,0 +1,151 @@
+.main {
+  background-color: #161b22;
+
+  &-description {
+    height: 600px;
+    position: relative;
+    background-image: url("./../../assets/images/banner/showcase-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    @include responsive_max(991px) {
+      height: 450px;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(20, 2, 39, 0.9);
+    }
+
+    &-inner {
+      height: 600px;
+      width: 100%;
+
+      @include flex(center, center);
+
+      flex-direction: column;
+
+      @include responsive_max(991px) {
+        height: 450px;
+      }
+
+      h3 {
+        position: relative;
+        z-index: 1;
+        color: var(--color-yellow-pri);
+        font-size: 3.8rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+
+        @include responsive_max(767px) {
+          font-size: 3rem;
+        }
+      }
+
+      h1 {
+        position: relative;
+        z-index: 1;
+        margin-top: 2rem;
+        color: #fff;
+        font-size: 5.5rem;
+        line-height: 6rem;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+        text-align: center;
+
+        @include responsive_max(767px) {
+          font-size: 4.5rem;
+        }
+      }
+    }
+  }
+
+  .project {
+    &-container {
+      position: relative;
+      cursor: pointer;
+
+      &:hover > .project-details {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    &-bg {
+      position: relative;
+      height: 100%;
+      width: 100%;
+
+      &-img {
+        height: 100%;
+        width: 100%;
+        @include flex(center, center);
+
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+
+      p {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ffd15c;
+        padding: 1.5rem 2rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #24292e;
+      }
+    }
+
+    &-details {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 209, 92, 0.7);
+      overflow: hidden;
+      transition: all 250ms ease-in-out;
+
+      @include flex(center, center);
+      flex-direction: column;
+
+      h3 {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.5px;
+        font-weight: 700;
+        text-align: center;
+        color: #24292e;
+      }
+
+      a {
+        display: inline-block;
+        background-color: #ff4c60;
+        padding: 1.5rem 1.2rem;
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-top: 1.5rem;
+        transition: all 150ms ease-in-out;
+        transition-delay: 50ms;
+
+        &:hover {
+          transform: scale(0.9);
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

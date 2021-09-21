@@ -1,0 +1,127 @@
+.about {
+  background-color: var(--color-footer-bg);
+
+  &-content {
+    text-align: center;
+
+    h3 {
+      color: var(--color-footer-text-pri);
+      font-size: 4.5rem;
+      font-weight: 700;
+      margin-bottom: 3rem;
+      text-transform: capitalize;
+      letter-spacing: 0.5px;
+
+      @include responsive_max(767px) {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    p {
+      color: var(--color-footer-text-pri);
+      font-size: 1.6rem;
+      line-height: 2rem;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+
+      @include responsive_max(767px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &-a {
+    padding-top: 8rem;
+
+    @include responsive_max(767px) {
+      padding-top: 5rem;
+    }
+
+    p > span {
+      font-weight: bolder;
+      color: var(--color-yellow-pri);
+    }
+
+    a {
+      border: 1px solid var(--color-footer-text-pri);
+      color: var(--color-footer-text-pri);
+      font-size: 1.5rem;
+      font-weight: 500;
+      cursor: pointer;
+      padding: 2rem;
+      width: fit-content;
+      margin: 0 auto;
+      margin-top: 3rem;
+      @include flex(center, center);
+      transition: background-color 150ms ease;
+
+      @include responsive_max(767px) {
+        margin-top: 2rem;
+      }
+
+      &:hover {
+        background-color: #161b22;
+      }
+
+      .anticon-github > svg {
+        height: 5rem;
+        width: 5rem;
+        margin-right: 2rem;
+      }
+    }
+  }
+
+  &-b {
+    margin-top: 6rem;
+    padding: 5rem;
+    background-color: var(--color-header-bg);
+
+    @include responsive_max(767px) {
+      margin-top: 4rem;
+      padding: 3rem;
+    }
+
+    img {
+      margin: 0 auto;
+      margin-top: 2rem;
+    }
+  }
+
+  &-author {
+    margin-top: 6rem;
+    padding-bottom: 8rem;
+    @include flex(center, space-between);
+
+    @include responsive_max(767px) {
+      margin-top: 3rem;
+      padding-bottom: 5rem;
+    }
+
+    &-avt {
+      width: 200px;
+      border-radius: 100%;
+
+      @include responsive_max(767px) {
+        width: 150px;
+      }
+    }
+
+    &-desc {
+      padding-left: 10rem;
+      text-align: left !important;
+
+      @include responsive_max(767px) {
+        padding-left: 3rem;
+      }
+
+      h3 {
+        text-transform: none;
+
+        span {
+          color: var(--color-yellow-pri);
+        }
+      }
+    }
+  }
+}

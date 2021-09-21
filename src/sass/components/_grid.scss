@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+}
+
+@each $num in $numbers {
+  .grid-col-#{$num} {
+    grid-template-columns: repeat($num, 1fr);
+  }
+}
+
+@each $num in $numbers {
+  .grid-col-xl-#{$num} {
+    @include responsive_max(1199px) {
+      grid-template-columns: repeat($num, 1fr);
+    }
+  }
+}
+
+@each $num in $numbers {
+  .grid-col-lg-#{$num} {
+    @include responsive_max(991px) {
+      grid-template-columns: repeat($num, 1fr);
+    }
+  }
+}
+
+@each $num in $numbers {
+  .grid-col-md-#{$num} {
+    @include responsive_max(767px) {
+      grid-template-columns: repeat($num, 1fr);
+    }
+  }
+}
+
+@each $num in $numbers {
+  .grid-col-sm-#{$num} {
+    @include responsive_max(575px) {
+      grid-template-columns: repeat($num, 1fr);
+    }
+  }
+}
