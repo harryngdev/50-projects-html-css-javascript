@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/50-projects-html-css-javascript/static/css/main.c9fd40fd.chunk.css",
+    "main.js": "/50-projects-html-css-javascript/static/js/main.40a8f5dd.chunk.js",
+    "main.js.map": "/50-projects-html-css-javascript/static/js/main.40a8f5dd.chunk.js.map",
+    "runtime-main.js": "/50-projects-html-css-javascript/static/js/runtime-main.5bea701c.js",
+    "runtime-main.js.map": "/50-projects-html-css-javascript/static/js/runtime-main.5bea701c.js.map",
+    "static/js/2.15efcb18.chunk.js": "/50-projects-html-css-javascript/static/js/2.15efcb18.chunk.js",
+    "static/js/2.15efcb18.chunk.js.map": "/50-projects-html-css-javascript/static/js/2.15efcb18.chunk.js.map",
+    "static/js/3.ad8906fc.chunk.js": "/50-projects-html-css-javascript/static/js/3.ad8906fc.chunk.js",
+    "static/js/3.ad8906fc.chunk.js.map": "/50-projects-html-css-javascript/static/js/3.ad8906fc.chunk.js.map",
+    "index.html": "/50-projects-html-css-javascript/index.html",
+    "static/css/main.c9fd40fd.chunk.css.map": "/50-projects-html-css-javascript/static/css/main.c9fd40fd.chunk.css.map",
+    "static/js/2.15efcb18.chunk.js.LICENSE.txt": "/50-projects-html-css-javascript/static/js/2.15efcb18.chunk.js.LICENSE.txt",
+    "static/media/avt.7eb2cdf0.jpg": "/50-projects-html-css-javascript/static/media/avt.7eb2cdf0.jpg",
+    "static/media/html-css-js.545043d0.png": "/50-projects-html-css-javascript/static/media/html-css-js.545043d0.png",
+    "static/media/logo.11e067ef.png": "/50-projects-html-css-javascript/static/media/logo.11e067ef.png",
+    "static/media/pj1_expanding-cards.png": "/50-projects-html-css-javascript/static/media/pj1_expanding-cards.5847259b.png",
+    "static/media/pj2_progress-steps.png": "/50-projects-html-css-javascript/static/media/pj2_progress-steps.0b093eb9.png",
+    "static/media/pj3_rotating-navigation-animation.png": "/50-projects-html-css-javascript/static/media/pj3_rotating-navigation-animation.2d92aff5.png",
+    "static/media/pj4_hidden-search-widget.png": "/50-projects-html-css-javascript/static/media/pj4_hidden-search-widget.93d7a1e7.png",
+    "static/media/pj5_blurry-loading.png": "/50-projects-html-css-javascript/static/media/pj5_blurry-loading.e5f81d02.png",
+    "static/media/pj6_scroll-animation.png": "/50-projects-html-css-javascript/static/media/pj6_scroll-animation.2bd8d927.png",
+    "static/media/pj7_split-landing-page.png": "/50-projects-html-css-javascript/static/media/pj7_split-landing-page.6dac5692.png",
+    "static/media/index.scss": "/50-projects-html-css-javascript/static/media/showcase-bg.26e3dd46.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bea701c.js",
+    "static/js/2.15efcb18.chunk.js",
+    "static/css/main.c9fd40fd.chunk.css",
+    "static/js/main.40a8f5dd.chunk.js"
+  ]
+}
