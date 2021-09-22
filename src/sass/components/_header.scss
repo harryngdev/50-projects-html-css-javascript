@@ -87,6 +87,7 @@
 
   #toggle-menu {
     display: none;
+    background-color: transparent;
 
     @include responsive_max(575px) {
       display: block;
