@@ -45,6 +45,10 @@
         @include responsive_max(767px) {
           font-size: 3rem;
         }
+
+        @include responsive_max(575px) {
+          font-size: 2.5rem;
+        }
       }
 
       h1 {
@@ -60,6 +64,11 @@
 
         @include responsive_max(767px) {
           font-size: 4.5rem;
+        }
+
+        @include responsive_max(575px) {
+          font-size: 3.8rem;
+          margin-top: 1rem;
         }
       }
     }

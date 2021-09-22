@@ -12,6 +12,9 @@ const pj6_image =
   require("./../images/projects/pj6_scroll-animation.png").default;
 const pj7_image =
   require("./../images/projects/pj7_split-landing-page.png").default;
+const pj8_image = require("./../images/projects/pj8_form-wave.png").default;
+const pj9_image = require("./../images/projects/pj9_sound-board.png").default;
+const pj10_image = require("./../images/projects/pj10_dad-jokes.png").default;
 
 const projects = [
   {
@@ -55,6 +58,24 @@ const projects = [
     name: "Split Landing Page",
     image: pj7_image,
     slug: "https://codepen.io/nvanha/full/PojeVGK",
+  },
+  {
+    id: 8,
+    name: "Form Input Wave",
+    image: pj8_image,
+    slug: "https://codepen.io/nvanha/full/VwWBaoP",
+  },
+  {
+    id: 9,
+    name: "Sound Board",
+    image: pj9_image,
+    slug: "https://codepen.io/nvanha/full/VwWBjrr",
+  },
+  {
+    id: 10,
+    name: "Dad Jokes",
+    image: pj10_image,
+    slug: "https://codepen.io/nvanha/full/RwgBRBJ",
   },
 ];
 

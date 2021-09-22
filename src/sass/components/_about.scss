@@ -105,6 +105,10 @@
       @include responsive_max(767px) {
         width: 150px;
       }
+
+      @include responsive_max(575px) {
+        width: 100px;
+      }
     }
 
     &-desc {
@@ -115,8 +119,17 @@
         padding-left: 3rem;
       }
 
+      @include responsive_max(575px) {
+        padding-left: 2rem;
+      }
+
       h3 {
         text-transform: none;
+
+        @include responsive_max(575px) {
+          font-size: 3.2rem !important;
+          margin-bottom: 1rem !important;
+        }
 
         span {
           color: var(--color-yellow-pri);
