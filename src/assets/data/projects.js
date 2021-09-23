@@ -15,6 +15,16 @@ const pj7_image =
 const pj8_image = require("./../images/projects/pj8_form-wave.png").default;
 const pj9_image = require("./../images/projects/pj9_sound-board.png").default;
 const pj10_image = require("./../images/projects/pj10_dad-jokes.png").default;
+const pj11_image =
+  require("./../images/projects/pj11_event-keycodes.png").default;
+const pj12_image =
+  require("./../images/projects/pj12_faq-collapse.png").default;
+const pj13_image =
+  require("./../images/projects/pj13_random-choice-picker.png").default;
+const pj14_image =
+  require("./../images/projects/pj14_animated-navigation.png").default;
+const pj15_image =
+  require("./../images/projects/pj15_incrementing-counter.png").default;
 
 const projects = [
   {
@@ -76,6 +86,36 @@ const projects = [
     name: "Dad Jokes",
     image: pj10_image,
     slug: "https://codepen.io/nvanha/full/RwgBRBJ",
+  },
+  {
+    id: 11,
+    name: "Event Keycodes",
+    image: pj11_image,
+    slug: "https://codepen.io/nvanha/full/bGRjmWR",
+  },
+  {
+    id: 12,
+    name: "Faq Collapse",
+    image: pj12_image,
+    slug: "https://codepen.io/nvanha/full/oNwMaoN",
+  },
+  {
+    id: 13,
+    name: "Random Choice Picker",
+    image: pj13_image,
+    slug: "https://codepen.io/nvanha/full/powOyda",
+  },
+  {
+    id: 14,
+    name: "Animated Navigation",
+    image: pj14_image,
+    slug: "https://codepen.io/nvanha/full/mdwGPzr",
+  },
+  {
+    id: 15,
+    name: "Incrementing Counter",
+    image: pj15_image,
+    slug: "https://codepen.io/nvanha/full/wveEGVp",
   },
 ];
 
